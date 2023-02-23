@@ -17,3 +17,17 @@ class CardItem(scrapy.Item):
     server = scrapy.Field()
     date = scrapy.Field()
 
+class LocationItem(scrapy.Item):
+    name = scrapy.Field()
+    object_type = scrapy.Field()
+    ability = scrapy.Field()
+    date_added = scrapy.Field()
+    slug = scrapy.Field()
+
+    # Metadata fields
+    url = scrapy.Field()
+    project = scrapy.Field()
+    spider = scrapy.Field()
+    server = scrapy.Field()
+    date = scrapy.Field()
+
