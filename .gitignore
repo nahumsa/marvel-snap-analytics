@@ -127,10 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-marvel_snap_analytics/tmpml98zop6/history/runs.db
-marvel_snap_analytics/tmpml98zop6/history/runs/64918b9d-9bc5-41ad-ba8a-f39158a19c63.db
-marvel_snap_analytics/tmpml98zop6/history/runs/index.db
-marvel_snap_analytics/tmpml98zop6/schedules/schedules.db
-marvel_snap_analytics/tmpml98zop6/storage/64918b9d-9bc5-41ad-ba8a-f39158a19c63/compute_logs/azcmqjqq.complete
-marvel_snap_analytics/tmpml98zop6/storage/64918b9d-9bc5-41ad-ba8a-f39158a19c63/compute_logs/azcmqjqq.err
-marvel_snap_analytics/tmpml98zop6/storage/64918b9d-9bc5-41ad-ba8a-f39158a19c63/compute_logs/azcmqjqq.out
+marvel_snap_analytics/tmp*
