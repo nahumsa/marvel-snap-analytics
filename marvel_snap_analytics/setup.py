@@ -5,7 +5,8 @@ setup(
     packages=find_packages(exclude=["marvel_snap_analytics_tests"]),
     install_requires=[
         "dagster",
-        "dagster-cloud"
+        "dagster-cloud",
+        "pandas"
     ],
-    extras_require={"dev": ["dagit", "pytest"]},
+    extras_require={"dev": ["dagit", "pytest", "pandas"]},
 )
