@@ -5,10 +5,7 @@ import urllib
 
 def extract() -> pd.DataFrame:
 
-    page = 1
-
-    decks_url = 'https://marvelsnap.pro/snap/do.php?cmd=getdecks&rq=' + f'{"page":{page},"limit":30,"srt":"metascore","direct":"desc","type":"","my":0,"myarchive":0,"fav":0,"getdecks":{"hascrd":[],"nothascrd":[],"youtube":0,"archetype":0,"supertype":"","smartsrch":"","pool":4,"date":"","collection":""}}'
-
+    decks_url = 'https://marvelsnap.pro/snap/do.php?cmd=getdecks&rq=' + '{"page":1,"limit":30,"srt":"metascore","direct":"desc","type":"","my":0,"myarchive":0,"fav":0,"getdecks":{"hascrd":[],"nothascrd":[],"youtube":0,"archetype":0,"supertype":"","smartsrch":"","pool":4,"date":"","collection":""}}'
 
 
     decks_response = requests.get(decks_url)
