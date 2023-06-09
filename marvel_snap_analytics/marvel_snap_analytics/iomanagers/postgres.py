@@ -1,4 +1,4 @@
-from dagster import IOManager, String, Any, Bool, Field
+from dagster import IOManager, InputContext, Any
 from pandas import DataFrame
 from sqlalchemy import create_engine
 
@@ -10,7 +10,7 @@ class PostgresIOManager(IOManager):
     def load_input(self, context):
         raise NotImplementedError("Loading not supported by PostgresIOManager")
 
-    def handle_output(self, context, obj):
+    def handle_output(self, context: InputContext, obj: Any):
         if isinstance(obj, DataFrame):
             if not self.table_name:
                 raise ValueError("Table name not provided in metadata")
