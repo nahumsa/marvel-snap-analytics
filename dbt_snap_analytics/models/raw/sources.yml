@@ -1,0 +1,50 @@
+
+version: 2
+
+sources:
+  - name: snap_analytics
+    database: marvel_snap
+    schema: snap_analytics
+    tables:
+      - name: cards
+      - name: locations
+      - name: decks
+
+
+#  table_name |      column_name      |          data_type
+# ------------+-----------------------+-----------------------------
+#  cards      | index                 | bigint
+#  cards      | stats_winrate         | double precision
+#  cards      | stats_cuberate        | double precision
+#  cards      | share_win             | double precision
+#  cards      | share_loss            | double precision
+#  cards      | share_cube_won        | double precision
+#  cards      | share_cube_lost       | double precision
+#  cards      | share_cube_earned     | double precision
+#  cards      | share_total           | double precision
+#  cards      | stats_position        | bigint
+#  cards      | stats_winrate_played  | double precision
+#  cards      | stats_cuberate_played | double precision
+#  cards      | dateCollected         | timestamp without time zone
+#  cards      | is_Token              | text
+#  cards      | PrimaryColor          | text
+#  cards      | SecondaryColor        | text
+#  cards      | RingColor             | text
+#  cards      | CardSeriesDefId       | text
+#  cards      | SeriesStartDates      | text
+#  cards      | stats_win             | text
+#  cards      | stats_loss            | text
+#  cards      | stats_cube_won        | text
+#  cards      | stats_cube_lost       | text
+#  cards      | CardDefId             | text
+#  cards      | name                  | text
+#  cards      | description           | text
+#  cards      | abilities             | text
+#  cards      | cost                  | text
+#  cards      | power                 | text
+#  cards      | category              | text
+#  cards      | source                | text
+#  cards      | variants              | text
+#  cards      | use_count             | text
+#  cards      | connected_cards       | text
+#  cards      | collectible           | text

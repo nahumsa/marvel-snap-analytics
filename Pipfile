@@ -9,6 +9,8 @@ dagit = "*"
 pandas = "*"
 psycopg2-binary = "*"
 sqlalchemy = "*"
+dbt-core = "*"
+dbt-postgres = "*"
 
 [dev-packages]
 
